@@ -1,0 +1,7 @@
+{
+  "name": "instagram-subscriptions-api",
+  "version": "0.0.1",
+  "dependencies": {
+    "instagram-node": "latest"
+  }
+}

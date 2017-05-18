@@ -12,8 +12,6 @@ module.exports = function (context, req) {
             context.res.sendStatus(400);
         }
     } else {
-        //DEBUG
-        context.log(JSON.stringify(req.body, null, 4));
         // map all updates to array of user_id & media_id messages, sent to queue
         var data = req.body.map(item => JSON.stringify(
             {

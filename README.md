@@ -17,3 +17,9 @@ Implements support for https://developers.facebook.com/apps/189849514869492/dash
 - Clone
 - NPM Install
 - [Running Azure Functions Locally with the CLI and VS Code](https://blogs.msdn.microsoft.com/appserviceteam/2016/12/01/running-azure-functions-locally-with-the-cli/)
+
+### Configuration
+* AzureWebsJobsServiceBus: For bindings
+* APPINSIGHTS_INSTRUMENTATIONKEY: For telemitry
+* IG_VERIFY_TOKEN: See Above
+* FB_VERIFY_TOKEN: See Above
